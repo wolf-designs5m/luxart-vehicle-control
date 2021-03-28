@@ -95,6 +95,7 @@ Citizen.CreateThread(function()
 						DisableControlAction(0, 86, true) -- INPUT_VEH_HORN	
 						DisableControlAction(0, 172, true) -- INPUT_CELLPHONE_UP  
 						DisableControlAction(0, 19, true) -- INPUT_CHARACTER_WHEEL 
+	                    DisableControlAction(0, 81, true) --INPUT_VEH_NEXT_RADIO		
 						if IsControlPressed(0, 243) then
 							while IsControlPressed(0, 243) do
 								radio_wheel_active = true
